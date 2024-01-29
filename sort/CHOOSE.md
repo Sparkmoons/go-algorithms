@@ -8,27 +8,18 @@
 ## Реализация
 
 ```go
-func BubbleSort(array []int) []int {
-	changed := true
+func ChooseSort(array []int) []int {
 	length := len(array)
 
-	// Массив в алгоритме считается отсортированным. При первой замене доказывается обратное и запускается еще одна итерация.
-	// Цикл останавливается, когда все пары элементов в массиве пропускаются без замен
-	for changed {
-		changed = false
-
-		for i := 1; i < length; i++ {
-			// если порядок не верный
-			if array[i-1] > array[i] {
-				// меняем местами элементы
-				array[i], array[i-1] = array[i-1], array[i]
-
-				// продолжаем сортировку
-				changed = true
+	for i := 0; i < length; i++ {
+		min := i
+		for j := i+1; j < length; j++ {
+		 if array[j] < array[min] {
+				min = j
 			}
 		}
+		array[i], array[min] = array[min], array[i]
 	}
-
 	return array
 }
 ```
