@@ -12,15 +12,15 @@ func UseChooseSort() {
 func ChooseSort(array []int) []int {
 	length := len(array)
 
-	for i := 1; i < length; i++ {
-		j := i
+	for i := 0; i < length; i++ {
+  min := i
 
-		for j > 0 {
-			if array[j-1] > array[j] {
-				array[j-1], array[j] = array[j], array[j-1]
+  for j := i+1; j < length; j++ {
+			if array[j] < array[min] {
+				min = j
 			}
-			j = j - 1
 		}
+  array[i], array[min] = array[min], array[i]
 	}
 
 	return array
