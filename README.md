@@ -14,7 +14,7 @@
     5. [Производительность относительно данных](#performance)
 2. #### [Алгоритмы сортировки](#sort_algorithms)
     1. [Пузырьковая сортировка](https://github.com/goavengers/go-algorithms/blob/master/sort/BUBBLE.md)
-    2. [Сортировка выборкой]()
+    2. [Сортировка выборкой](https://github.com/Sparkmoons/go-algorithms/blob/master/sort/CHOOSE.md)
     3. [Сортировка вставками](https://github.com/goavengers/go-algorithms/blob/master/sort/INSERTION.md)
     4. Пирамидальная сортировка
     5. Сортировка слиянием
