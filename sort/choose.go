@@ -13,7 +13,7 @@ func ChooseSort(array []int) []int {
 	length := len(array)
 
 	for i := 0; i < length; i++ {
- min := i
+  min := i
 
   for j := i+1; j < length; j++ {
 			if array[j] < array[min] {
