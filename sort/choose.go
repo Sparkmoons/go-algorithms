@@ -4,9 +4,9 @@ import "fmt"
 
 func UseChooseSort() {
     unsorted := []int{1, 3, 2, 4, 8, 6, 7, 2, 3, 0}
-	   fmt.Println(unsorted)
-	   sorted := ChooseSort(unsorted)
-	   fmt.Println(sorted)
+    fmt.Println(unsorted)
+    sorted := ChooseSort(unsorted)
+    fmt.Println(sorted)
 }
 
 func ChooseSort(array []int) []int {
