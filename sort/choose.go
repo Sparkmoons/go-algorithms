@@ -20,8 +20,7 @@ func ChooseSort(array []int) []int {
 				min = j
 			}
 		}
-  array[i], array[min] = array[min], array[i]
+    array[i], array[min] = array[min], array[i]
 	}
-
 	return array
 }
