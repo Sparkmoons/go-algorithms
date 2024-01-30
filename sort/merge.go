@@ -1,3 +1,14 @@
+package sort
+
+import "fmt"
+
+func UseInsertionSort() {
+	unsorted := []int{1, 3, 2, 4, 8, 6, 7, 2, 3, 0}
+	fmt.Println(unsorted)
+	sorted := MergeSort(unsorted)
+	fmt.Println(sorted)
+}
+
 func MergeSort(array []int) []int {
     if len(array) <= 1 {
         return array
