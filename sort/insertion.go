@@ -7,6 +7,21 @@ func UseInsertionSort() {
 	fmt.Println(unsorted)
 	sorted := InsertionSort(unsorted)
 	fmt.Println(sorted)
+
+	
+	//var2
+	unsorted2 := []int{1, 3, 2, 4, 8, 6, 7, 2, 3, 0}
+	fmt.Println(unsorted2)
+	i := 1
+	for i > len(unsorted2) {
+		j := i
+		for j >= 1 && n[j] < n[j-1] {
+			n[j], n[j-1] = n[j-1], n[j]
+			j--
+		}
+		i++
+	}
+	fmt.Println(unsorted2)
 }
 
 func InsertionSort(array []int) []int {
