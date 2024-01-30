@@ -13,12 +13,12 @@
     4. [Заключение](#conclusion)
     5. [Производительность относительно данных](#performance)
 2. #### [Алгоритмы сортировки](#sort_algorithms)
-    1. [Пузырьковая сортировка](https://github.com/goavengers/go-algorithms/blob/master/sort/BUBBLE.md)
+    1. [Пузырьковая сортировка](https://github.com/Sparkmoons/go-algorithms/blob/master/sort/BUBBLE.md)
     2. [Сортировка выборкой](https://github.com/Sparkmoons/go-algorithms/blob/master/sort/CHOOSE.md)
-    3. [Сортировка вставками](https://github.com/goavengers/go-algorithms/blob/master/sort/INSERTION.md)
+    3. [Сортировка вставками](https://github.com/Sparkmoons/go-algorithms/blob/master/sort/INSERTION.md)
     4. Пирамидальная сортировка
     5. Сортировка слиянием
-    6. [Быстрая сортировка](https://github.com/goavengers/go-algorithms/blob/master/sort/FAST.md)
+    6. [Быстрая сортировка](https://github.com/Sparkmoons/go-algorithms/blob/master/sort/FAST.md)
 3. #### [Алгоритмы поиска](#search_algorithms)
     1. Поиск в глубину
     2. Поиск в ширину
