@@ -18,7 +18,7 @@
     3. [Сортировка вставками](https://github.com/goavengers/go-algorithms/blob/master/sort/INSERTION.md)
     4. Пирамидальная сортировка
     5. Сортировка слиянием
-    6. Быстрая сортировка
+    6. [Быстрая сортировка](https://github.com/goavengers/go-algorithms/blob/master/sort/FAST.md)
 3. #### [Алгоритмы поиска](#search_algorithms)
     1. Поиск в глубину
     2. Поиск в ширину
