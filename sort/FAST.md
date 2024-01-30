@@ -4,27 +4,21 @@
 ## Реализация
 
 ```go
-func BubbleSort(array []int) []int {
-	changed := true
-	length := len(array)
-
-	// Массив в алгоритме считается отсортированным. При первой замене доказывается обратное и запускается еще одна итерация.
-	// Цикл останавливается, когда все пары элементов в массиве пропускаются без замен
-	for changed {
-		changed = false
-
-		for i := 1; i < length; i++ {
-			// если порядок не верный
-			if array[i-1] > array[i] {
-				// меняем местами элементы
-				array[i], array[i-1] = array[i-1], array[i]
-
-				// продолжаем сортировку
-				changed = true
-			}
-		}
-	}
-
-	return array
+func FastSort(array []int) []int {
+    if len(array) <= 1 {
+        return array
+    }
+    var min, max, res []int
+    p := array[0]
+    for _, num := range array[1:] {
+        if num <= p {
+            min = append(min, num)
+        } else {
+            max = append(max, num)
+        }
+    }
+    res = append(FastSort(min), p)
+    res = append(res, FastSort(max)...)
+    return res
 }
 ```
