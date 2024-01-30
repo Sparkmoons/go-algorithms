@@ -4,17 +4,6 @@
 ## Реализация
 
 ```go
-package sort
-
-import "fmt"
-
-func UseBubbleSort() {
-	unsorted := []int{1, 3, 2, 4, 8, 6, 7, 2, 3, 0}
-	fmt.Println(unsorted)
-	sorted := BubbleSort(unsorted)
-	fmt.Println(sorted)
-}
-
 func BubbleSort(array []int) []int {
 	changed := true
 	length := len(array)
