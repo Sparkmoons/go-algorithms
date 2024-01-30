@@ -2,7 +2,7 @@
 
 Name                  | Best            | Average             | Worst               | Memory    | Stable    | Comments  |
 | --------------------- | :-------------: | :-----------------: | :-----------------: | :-------: | :-------: | :-------- |
-| **Insertion sort**    | n               | n<sup>2</sup>       | n<sup>2</sup>       | 1         | Yes       |           |
+| **Insertion sort**    | n               | n log n       | n<sup>2</sup>       | 1         | Yes       |           |
 
 
 ## Реализация
