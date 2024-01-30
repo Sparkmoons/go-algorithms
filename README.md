@@ -17,7 +17,7 @@
     2. [Сортировка выборкой](https://github.com/Sparkmoons/go-algorithms/blob/master/sort/CHOOSE.md)
     3. [Сортировка вставками](https://github.com/Sparkmoons/go-algorithms/blob/master/sort/INSERTION.md)
     4. Пирамидальная сортировка
-    5. Сортировка слиянием
+    5. [Сортировка слиянием](https://github.com/Sparkmoons/go-algorithms/blob/master/sort/MERGE.md)
     6. [Быстрая сортировка](https://github.com/Sparkmoons/go-algorithms/blob/master/sort/FAST.md)
 3. #### [Алгоритмы поиска](#search_algorithms)
     1. Поиск в глубину
