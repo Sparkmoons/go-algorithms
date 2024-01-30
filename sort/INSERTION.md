@@ -24,7 +24,7 @@
 | --------------------- | :-------------: | :-----------------: | :-----------------: | :-------: | :-------: | :-------- |
 | **Insertion sort**    | n               | n<sup>2</sup>       | n<sup>2</sup>       | 1         | Yes       |           |
 
-## Реализация
+## Реализация №1
 
 ```go
 func InsertionSort(array []int) []int {
@@ -41,6 +41,23 @@ func InsertionSort(array []int) []int {
 		}
 	}
 
+	return array
+}
+```
+
+## Реализация №2
+
+```go
+func InsertionsSort2(array []int) []int{
+	i := 1
+	for i > len(array) {
+		j := i
+		for j >= 1 && n[j] < n[j-1] {
+			n[j], n[j-1] = n[j-1], n[j]
+			j--
+		}
+		i++
+	}
 	return array
 }
 ```
