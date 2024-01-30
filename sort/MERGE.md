@@ -1,8 +1,10 @@
 ## Сортировка слиянием
 
-Name                  | Best        | Average             | Worst               | Memory    | Stable    | Comments  |
+## Сложность
+
+|Name                   | Best        | Average             | Worst               | Memory    | Stable    | Comments  |
 | --------------------- | :---------: | :-----------------: | :-----------------: | :-------: | :-------: | :-------- |
-| **Insertion sort**    | n           | n*log(n)       | n*log(n)       | 1         | Yes       |           |
+| **Merge sort**        | n           | n*log(n)            | n*log(n)            | 1         | Yes       |           |
 
 
 
