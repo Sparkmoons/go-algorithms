@@ -2,7 +2,7 @@
 
 Name                  | Best        | Average             | Worst               | Memory    | Stable    | Comments  |
 | --------------------- | :---------: | :-----------------: | :-----------------: | :-------: | :-------: | :-------- |
-| **Insertion sort**    | n           | n * log(n)       | n * log(n)       | 1         | Yes       |           |
+| **Insertion sort**    | n           | n*log(n)       | n*log(n)       | 1         | Yes       |           |
 
 
 ## Реализация
