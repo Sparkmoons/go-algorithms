@@ -1,5 +1,9 @@
+## Быстрая сортировка
 
 
+## Реализация
+
+```go
 package sort
 
 import "fmt"
@@ -34,3 +38,4 @@ func BubbleSort(array []int) []int {
 
 	return array
 }
+’’’
