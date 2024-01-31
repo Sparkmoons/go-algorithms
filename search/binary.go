@@ -1,3 +1,12 @@
+package sort
+
+import "fmt"
+
+func UseBinSearch(){
+    n := []int{1, 6, 4, 7, 10, 3, 5}
+    fmt.Println(BinSearch(n, 6))
+}
+
 func BinSearch(array []int, val int) []int{
     if len(array) == 0 {
         return -1
