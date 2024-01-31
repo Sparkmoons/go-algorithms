@@ -1,6 +1,6 @@
 func BinSearch(array []int, val int) []int{
     if len(array) == 0 {
-        return 0
+        return -1
     }
     first, right := 0, len(array) - 1
     for first <= last {
@@ -13,5 +13,5 @@ func BinSearch(array []int, val int) []int{
             first = first + 1
         }
     }
-    return 0
+    return -1
 }
