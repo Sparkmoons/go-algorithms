@@ -22,7 +22,7 @@
 3. #### [Алгоритмы поиска](#search_algorithms)
     1. Поиск в глубину
     2. Поиск в ширину
-    3. [Двоичный поиск](https://github.com/search/BINARY.md)
+    3. [Двоичный поиск](https://github.com/Sparkmoons/go-algorithms/blob/master/search/BINARY.md)
     4. Линейный поиск
 
 ## Прежде чем начать, зачем мне изучать концепцию Big O?
